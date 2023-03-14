@@ -9,4 +9,4 @@ The Intrusion Detector is built using Support Vector Machine, Random Forest, Nai
 Dataset we used to achieve this goal is UNSW-NB15 dataset. Dataset contains network traffic data during normal traffic and during execution of different attacks.
 
 # How to Run?
-Run the file unsw-nb 15-ids.py in an IPython Notebook, to trace step by step analysis of what code does
+Run the file unsw-nb15 -ids.ipynb in an IPython Notebook, to trace step by step analysis of what code does
