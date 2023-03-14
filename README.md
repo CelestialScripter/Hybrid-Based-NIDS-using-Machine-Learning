@@ -5,7 +5,7 @@ This project is more of a prototype, than a final working product.
 # Model Used
 The Intrusion Detector is built using Support Vector Machine, Random Forest, Naive Bayes, which is trained specifically for each individual type of attacks
 
-# DATASET USED
+# Dataset Used
 Dataset we used to achieve this goal is UNSW-NB15 dataset. Dataset contains network traffic data during normal traffic and during execution of different attacks.
 
 # How to Run?
