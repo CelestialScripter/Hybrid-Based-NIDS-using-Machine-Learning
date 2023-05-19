@@ -3,7 +3,7 @@ This project was made for Blacksentry Consulting. Goal was to use machine learni
 This project is more of a prototype, than a final working product.
 
 # Model Used
-The Intrusion Detector is built using Support Vector Machine, Random Forest, Naive Bayes, which is trained specifically for each individual type of attacks
+The Intrusion Detector is built using Decision Trees, Naive Bayes and Random Forest algorithms which is trained specifically for each individual type of attacks
 
 # Dataset Used
 Dataset we used to achieve this goal is UNSW-NB15 dataset. Dataset contains network traffic data during normal traffic and during execution of different attacks.
