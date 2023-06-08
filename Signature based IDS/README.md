@@ -1,5 +1,5 @@
 # Docker file for IDS Script
-
+Make sure you have Docker installed and running on your machine before following the steps below.
 
 # Docker Usage 
 Save the Dockerfile.
