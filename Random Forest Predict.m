@@ -46,4 +46,4 @@ while ~isempty(node.children)
 end
 prediction = node.classLabel;
 
-end
+end 
