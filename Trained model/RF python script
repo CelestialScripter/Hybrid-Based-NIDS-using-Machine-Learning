@@ -1,0 +1,47 @@
+import numpy as np
+
+def random_forest_predict(model, X):
+    # RANDOM_FOREST_PREDICT returns a vector of predictions using a trained random forest model.
+    # pred = RANDOM_FOREST_PREDICT(model, X) returns a vector of predictions using a
+    # trained random forest model. X is an m x n matrix where each example is a row.
+    # model is a random forest model returned from the training process.
+    # The predictions pred is an m x 1 array of predicted class labels.
+
+    # Check if we are getting a column vector, if so, then assume that we only
+    # need to do prediction for a single example
+    if X.shape[1] == 1:
+        # Examples should be in rows
+        X = X.T
+
+    # Dataset
+    m = X.shape[0]
+    pred = np.zeros((m, 1))
+
+    # Make predictions using the random forest model
+    for i in range(m):
+        example = X[i, :]
+        tree_predictions = np.zeros((model['numTrees'], 1))
+        for j in range(model['numTrees']):
+            tree = model['trees'][j]
+            tree_predictions[j] = predict_tree(tree, example)
+        pred[i] = np.argmax(np.bincount(tree_predictions.flatten()))
+
+    return pred
+
+
+def predict_tree(tree, example):
+    # PREDICT_TREE returns the predicted class label for a given example using a decision tree.
+    # prediction = PREDICT_TREE(tree, example) returns the predicted class label
+    # for a given example using a decision tree. tree is a trained decision tree
+    # dictionary, and example is a list representing a single example.
+
+    while 'children' in tree:
+        feature = tree['feature']
+        threshold = tree['threshold']
+        if example[feature] <= threshold:
+            tree = tree['children'][0]
+        else:
+            tree = tree['children'][1]
+    prediction = tree['classLabel']
+
+    return prediction
