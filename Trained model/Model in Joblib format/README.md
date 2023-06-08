@@ -12,7 +12,7 @@ This repository contains a machine learning model for [Anomally-based intrusion 
 1. Clone the repository:
 
 
-2. Navigate to the project directory:
+2. Navigate to this project directory:
 
 
 3. Install the required dependencies:
