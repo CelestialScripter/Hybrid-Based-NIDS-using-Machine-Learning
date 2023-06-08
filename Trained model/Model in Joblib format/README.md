@@ -18,6 +18,9 @@ This repository contains a machine learning model for [Anomally-based intrusion 
 3. Install the required dependencies:
 
 
+4. Unzip the model.rar file to access the model.joblib file
+
+
 ## Usage
 
 1. Load the trained model:
