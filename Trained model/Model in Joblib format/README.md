@@ -33,9 +33,9 @@ data = ...  # Your input data preprocessing steps here
 # Make predictions
 predictions = model.predict(data)
 
-# Contributing
+## **Contributing**
 Contributions are welcome! If you find any issues or have suggestions for improvements, please create an issue or submit a pull request.
 
-# License
+## **Usage**
 
 Feel free to customize the README file according to your specific model, dataset, framework, and requirements. Include any necessary sections or instructions to provide clear guidance to users who want to use your machine learning model.
