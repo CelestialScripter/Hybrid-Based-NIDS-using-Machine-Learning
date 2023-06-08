@@ -13,7 +13,7 @@
 3. Install the required dependencies:
 
 
-4. Unzip the model.rar file to access the model.joblib file
+4. Unzip the saved_model.rar file to access the saved_model.pkl file
 
 ## Usage
 ```
