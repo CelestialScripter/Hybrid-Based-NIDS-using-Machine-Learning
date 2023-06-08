@@ -2,13 +2,13 @@
 FROM python:3.9-slim
 
 # Set the working directory in the container
-Anomally-based-IDS-using-machine-learning/Signature based IDS/Python script.py
+Anomally-based-IDS-using-machine-learning/Signature based IDS/Python script.pcap
 
 # Copy the Python script to the working directory
-COPY "python script.py" .
+COPY "Python script.pcap" .
 
 # Install the required dependencies
 RUN pip install jnetpcap
 
 # Run the Python script when the container starts
-CMD ["python", "python script.py"]
+CMD ["python", "Python script.pcap"]
