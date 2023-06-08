@@ -32,10 +32,13 @@ model = joblib.load('model.joblib')
 data = ...  # Your input data preprocessing steps here
 # Make predictions
 predictions = model.predict(data)
+# Interpret the predictions and use them for your task or application.
 
-## **Contributing**
+# Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please create an issue or submit a pull request.
 
-## **Usage**
+
+
+# License
 
 Feel free to customize the README file according to your specific model, dataset, framework, and requirements. Include any necessary sections or instructions to provide clear guidance to users who want to use your machine learning model.
