@@ -8,7 +8,6 @@ Anomally-based-IDS-using-machine-learning/Trained model
 # Copy the Python script and model file to the working directory
 Anomally-based-IDS-using-machine-learning/Trained model
 /RF python script.py
-COPY your_model.pkl /app/your_model.pkl
 
 # Install the required dependencies
 RUN pip install numpy scikit-learn
