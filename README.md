@@ -1,5 +1,5 @@
 # Anomally-based-IDS-using-machine-learning-
-This project was made for Blacksentry Consulting. Goal was to use machine learning algorithms for predicting network and web attacks.
+The Goal was to use machine learning algorithms for predicting network and web attacks.
 This project is more of a prototype, than a final working product.
 
 # Model Used
