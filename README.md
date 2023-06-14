@@ -1,4 +1,4 @@
-# Anomally-based-IDS-using-machine-learning-
+# Hybrid-based-IDS-using-Machine-Learning-
 The Goal was to use machine learning algorithms for predicting network and web attacks.
 This project is more of a prototype, than a final working product.
 
